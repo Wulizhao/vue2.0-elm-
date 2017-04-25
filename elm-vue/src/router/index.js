@@ -10,6 +10,10 @@ export default new Router({
   routes: [
     {
       path: '/',
+      redirect: '/goods'
+    },
+    {
+      path: '/',
       component: SellerIndex,
       children: [
         {
