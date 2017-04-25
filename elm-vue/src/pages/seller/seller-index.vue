@@ -8,7 +8,7 @@
     </div>
     <div class="content" >
       <transition name="router-fade" mode="out-in">
-      	<router-view v-on:sellect="getsellectfoods"></router-view>
+      	<router-view v-on:sellect="getsellectfoods" :seller="seller"></router-view>
       </transition>
     </div>
     <div class="shop-cart">
